@@ -1,0 +1,70 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+}
+
+.row p {
+	width: 100px;
+}
+
+input {
+	width: 200px;
+	margin: 10px 0px;
+	border: 1px solid #4f9cda;
+	padding: 8px 0px;
+}
+
+small {
+	padding-left: 8px;
+	color: red;
+	display: none;
+}
+
+button {
+	background-color: #4f9cda;
+	color: white;
+	border: none;
+}
+
+.add-btn {
+    width: 75px;
+	padding: 10px 0px;
+	margin: 10px 0px 10px 225px;
+}
+
+table {
+	width: 600px;
+}
+
+thead tr {
+	background-color: #4f9cda !important;
+	color: white;
+	font-weight: bold;
+}
+
+td {
+	width: 150px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 10px 5px;
+}
+
+tr:nth-of-type(n) {
+	background-color: #d2dff1;
+}
+
+tr:nth-of-type(2n) {
+	background-color: #eaf0f8;
+}
+
+tr td:nth-of-type(4) {
+	text-align: center;
+}
+
+.del-btn {
+	padding: 3px 20px;
+}
