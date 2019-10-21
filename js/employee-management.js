@@ -39,7 +39,7 @@ submit.addEventListener("click", function () {
 	if(!ext) document.querySelector("#extension + small").style.display = "inline-block";
 	else document.querySelector("#extension + small").style.display = "none";
 
-	if (!(name || title || ext)) return;
+	if (!(name && title && ext)) return;
 	
 	persons.push([name, title, ext]);
 
